@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-10T10:48:14 IST" name="Default suite" finished-at="2024-03-10T10:48:34 IST" duration-ms="19269">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestScript1.FullflowTest(java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestScript1@909217e]" name="FullflowTest" class="testscripts.TestScript1"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-03-10T10:48:14 IST" name="Default test" finished-at="2024-03-10T10:48:34 IST" duration-ms="19269">
+      <class name="testscripts.TestScript1">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testscripts.TestScript1@909217e]" started-at="2024-03-10T10:48:14 IST" name="launchApplication" finished-at="2024-03-10T10:48:18 IST" duration-ms="3777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="FullflowTest(java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestScript1@909217e]" started-at="2024-03-10T10:48:18 IST" name="FullflowTest" data-provider="getData" finished-at="2024-03-10T10:48:21 IST" duration-ms="2669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullflowTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testscripts.TestScript1@909217e]" started-at="2024-03-10T10:48:21 IST" name="aftermethod" finished-at="2024-03-10T10:48:21 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testscripts.TestScript1@909217e]" started-at="2024-03-10T10:48:21 IST" name="launchApplication" finished-at="2024-03-10T10:48:22 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="FullflowTest2()[pri:0, instance:testscripts.TestScript1@909217e]" started-at="2024-03-10T10:48:22 IST" name="FullflowTest2" finished-at="2024-03-10T10:48:33 IST" duration-ms="11488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullflowTest2 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testscripts.TestScript1@909217e]" started-at="2024-03-10T10:48:33 IST" name="aftermethod" finished-at="2024-03-10T10:48:34 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- testscripts.TestScript1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
